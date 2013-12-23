@@ -1,4 +1,10 @@
-libgit-repository-plugin-test-perl (0.001-1) unstable; urgency=low
+libgit-repository-plugin-test-perl (0.001-2) stable; urgency=low
+
+  * Add missing dependency: git | git-core.
+
+ -- Nathaniel Nutter <nnutter@genome.wustl.edu>  Mon, 23 Dec 2013 14:28:10 -0600
+
+libgit-repository-plugin-test-perl (0.001-1) stable; urgency=low
 
   * Initial Release.
 

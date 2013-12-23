@@ -2,14 +2,14 @@ Source: libgit-repository-plugin-test-perl
 Section: perl
 Priority: optional
 Build-Depends: debhelper (>= 7)
-Build-Depends-Indep: perl, libgit-repository-perl
+Build-Depends-Indep: perl, libgit-repository-perl, git | git-core
 Maintainer: Nathaniel Nutter <nnutter@genome.wustl.edu>
 Standards-Version: 3.8.3
 Homepage: http://search.cpan.org/dist/Git-Repository-Plugin-Test/
 
 Package: libgit-repository-plugin-test-perl
 Architecture: all
-Depends: ${perl:Depends}, ${misc:Depends}, libgit-repository-perl
+Depends: ${perl:Depends}, ${misc:Depends}, libgit-repository-perl, git | git-core
 Description: Test exit of Git commands
  Adds run_exit_ok and run_exit_is methods to the Git::Repository object that
  can be used for testing Git operations.
