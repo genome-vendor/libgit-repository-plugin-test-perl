@@ -1,3 +1,9 @@
+libgit-repository-plugin-test-perl (0.002-1) stable; urgency=low
+
+  * Initial package for Git::Repository::Plugin::Test v0.002.
+
+ -- Nathaniel Nutter <nnutter@genome.wustl.edu>  Thu, 26 Dec 2013 11:06:08 -0600
+
 libgit-repository-plugin-test-perl (0.001-2) stable; urgency=low
 
   * Add missing dependency: git | git-core.
